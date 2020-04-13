@@ -1,0 +1,12 @@
+[gd_scene format=2]
+
+[node name="Group1" type="Button"]
+margin_left = 406.0
+margin_right = 506.0
+margin_bottom = 74.0
+rect_min_size = Vector2( 100, 0 )
+text = "Group 1"
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
