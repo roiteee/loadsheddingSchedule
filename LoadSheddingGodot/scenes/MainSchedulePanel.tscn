@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+
+[node name="MainSchedulePanel" type="Panel"]
+margin_right = 900.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 0, 100 )
+
+[node name="Day" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -654.0
+margin_bottom = -7.62939e-06
+text = "Sunday"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Time" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 265.0
+margin_bottom = -7.62939e-06
+text = "09-20
+23-49"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Separator" type="TextureRect" parent="."]
+modulate = Color( 0.0470588, 0.0470588, 0.0470588, 1 )
+margin_left = 252.051
+margin_right = 263.051
+margin_bottom = 99.0
+texture = ExtResource( 1 )
+expand = true
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
