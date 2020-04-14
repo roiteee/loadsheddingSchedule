@@ -1,4 +1,6 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/GroupButton.gd" type="Script" id=1]
 
 [node name="Group1" type="Button"]
 margin_left = 406.0
@@ -7,6 +9,8 @@ margin_bottom = 74.0
 rect_min_size = Vector2( 100, 0 )
 text = "Group 1"
 expand_icon = true
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+[connection signal="pressed" from="." to="." method="_on_Group1_pressed"]

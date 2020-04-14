@@ -1,11 +1,16 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://scripts/MainSchedulePanel.gd" type="Script" id=2]
 
 [node name="MainSchedulePanel" type="Panel"]
 margin_right = 900.0
 margin_bottom = 100.0
 rect_min_size = Vector2( 0, 100 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Day" type="Label" parent="."]
 anchor_right = 1.0
